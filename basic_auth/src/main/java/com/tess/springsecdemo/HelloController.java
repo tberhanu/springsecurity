@@ -1,4 +1,4 @@
-package com.telusko.springsecdemo;
+package com.tess.springsecdemo;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
