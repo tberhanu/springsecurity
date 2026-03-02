@@ -39,13 +39,13 @@ public class SecurityConfig {
     public UserDetailsService userDetailsService() {
 
         UserDetails user = User
-                .withUsername("john")
+                .withUsername("tess1")
                 .password(passwordEncoder().encode("password1"))
                 .roles("USER")
                 .build();
 
         UserDetails admin = User
-                .withUsername("tess")
+                .withUsername("tess2")
                 .password(passwordEncoder().encode("password2"))
                 .roles("ADMIN")
                 .build();
